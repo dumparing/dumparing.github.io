@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jason Gao - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <style>
+        html, body {
+            height: 100%;
+        }
+        .wrapper {
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .content {
+            flex: 1;
+        }
+        footer {
+            margin-top: auto;
+        }
+        .resume-section {
+            margin-bottom: 2rem;
+        }
+        .resume-header {
+            border-bottom: 2px solid #007bff;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="home.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    </ul>
+                    <div class="navbar-text ms-auto">
+                        <i class="fas fa-user fa-lg text-light"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Resume Content -->
+        <div class="container mt-5 content">
+            <!-- Header Section -->
+            <div class="text-center mb-4">
+                <h1>Jason Gao</h1>
+                <p>
+                    303-961-8050 | 
+                    <a href="mailto:jason.gao@colorado.edu">jason.gao@colorado.edu</a> | 
+                    <a href="https://www.linkedin.com/in/jason-gao-34160a28b/" target="_blank">LinkedIn</a>
+                </p>
+            </div>
+
+            <!-- Education Section -->
+            <div class="resume-section">
+                <h2 class="resume-header">Education</h2>
+                <div class="row">
+                    <div class="col">
+                        <h4>University of Colorado Boulder</h4>
+                        <p>Bachelor of Science in Computer Science (4.0 GPA)</p>
+                        <p><strong>Expected Graduation:</strong> May 2026</p>
+                        <p><strong>Relevant Coursework:</strong> Data Structures, Computer Systems, Algorithms, Linear Algebra, Discrete Math, Database Systems, Design and Analysis of Operating Systems, Software Development, Data Sci with Stats and Probability, Introduction to Robotics</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience Section -->
+            <div class="resume-section">
+                <h2 class="resume-header">Experience</h2>
+                <div class="mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h4>Software Engineer</h4>
+                        <p>December 2023 – Present</p>
+                    </div>
+                    <h5>Edvise Technologies Inc, Boulder, CO</h5>
+                    <ul>
+                        <li>Designed and developed a comprehensive web application to streamline course planning for university students, integrating features for visualizing degree requirements, optimizing schedules, and tracking academic progress</li>
+                        <li>Built the application using modern web development tools including React, Node.js, Express.js, and Bootstrap, and implemented interactive visualizations using HTML, CSS, and JavaScript</li>
+                        <li>Developed autofill functionality where it automatically gives you a plan based on your major</li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="d-flex justify-content-between">
+                        <h4>Algorithms Teaching Assistant</h4>
+                        <p>August 2024 – Present</p>
+                    </div>
+                    <h5>University of Colorado Boulder, Boulder, CO</h5>
+                    <ul>
+                        <li>Conducted office hours to assist students in their understanding with algorithmic concepts such as sorting, searching, etc.</li>
+                        <li>Collaborated with the teaching team to design programming exercises with reasonable difficulty that reinforce theoretical concepts</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Projects Section -->
+            <div class="resume-section">
+                <h2 class="resume-header">Projects</h2>
+                <div class="mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h4>XiaoR Geek Wifi-Robot Autonomous Driving Simulator</h4>
+                        <p>August 2022 – January 2023</p>
+                    </div>
+                    <p><strong>Technologies:</strong> Python, Linux</p>
+                    <ul>
+                        <li>Programmed a small robotic car using a Raspberry Pi to autonomously follow a black line that utilized pulse-width modulation (PWM) for motor control, infrared sensors for line detection, and ultrasonic sensors for collision avoidance</li>
+                        <li>Integrated infrared sensors to track black line paths with real-time adjustments for precise navigation</li>
+                        <li>Conducted performance testing to evaluate robot's obstacle detection and line-following accuracy under different lighting and environmental conditions</li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="d-flex justify-content-between">
+                        <h4>Riot Games API</h4>
+                        <p>September 2024 – Present</p>
+                    </div>
+                    <p><strong>Technologies:</strong> Python, Pandas, Matplotlib, React</p>
+                    <ul>
+                        <li>Developed a full-stack web application using Firebase, Express, React, Node</li>
+                        <li>Collected and processed data from Riot Games API, retrieving over 5,000 match records</li>
+                        <li>Built a Python-based pipeline to automate data extraction, cleaning, and storage for performance metrics</li>
+                        <li>Analyzed individual player performance using metrics like win rate, KDA, CS, and rank progression</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Leadership Section -->
+            <div class="resume-section">
+                <h2 class="resume-header">Leadership</h2>
+                <div>
+                    <div class="d-flex justify-content-between">
+                        <h4>Boulder Launchpad Director of Research</h4>
+                        <p>August 2023 – Present</p>
+                    </div>
+                    <h5>University of Colorado Boulder, Boulder, CO</h5>
+                    <ul>
+                        <li>Directed a team of 20+ researchers across various sectors, driving collaboration and project success</li>
+                        <li>Managed a $4,000+ semester budget and coordinated guest speaker events featuring venture capitalists and startup founders</li>
+                        <li>Established and nurtured relationships with local VCs, enhancing industry connections and opportunities for club members</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Technical Skills Section -->
+            <div class="resume-section">
+                <h2 class="resume-header">Technical Skills</h2>
+                <ul class="list-unstyled">
+                    <li><strong>Languages:</strong> C/C++, Java, Python, SQL (Postgres), JavaScript, HTML/CSS, Assembly</li>
+                    <li><strong>Frameworks:</strong> React.js, Node.js, Pandas, Express.js</li>
+                    <li><strong>Developer Tools:</strong> Git, VS Code, Pycharm, IntelliJ, GDB, Github</li>
+                    <li><strong>Skills:</strong> Communication, Problem-Solving/Critical Thinking, Teamwork, Full stack development</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white text-center py-3">
+            <p>Connect with me: <a href="https://www.linkedin.com/in/jason-gao-34160a28b/" class="text-white" target="_blank">LinkedIn</a></p>
+            <a href="https://www.linkedin.com/in/jason-gao-34160a28b/" class="text-white me-3" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
